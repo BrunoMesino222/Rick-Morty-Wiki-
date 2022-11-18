@@ -11,7 +11,7 @@ const Filters = ({setStatus, setPageNumber, setGender, setSpecies}) => {
     setGender("");
     setSpecies("");
     window.location.reload(false);
-  };
+  }; 
 
   return (
     <div className='col-3'>
